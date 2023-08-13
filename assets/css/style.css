@@ -38,50 +38,137 @@
   align-items: center;
   justify-content: center;
 }
-#main .main .main__panel {
+#main .main .staff__panel {
   width: 75rem;
   height: 56rem;
   background-color: var(--main-background-color);
 }
-#main .main .main__panel__header {
+#main .main .staff__panel__header {
   width: 100%;
   height: 6rem;
   padding: 0 3rem;
-  border: 1px solid #E3EAF3;
+  border-bottom: 1px solid #E3EAF3;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#main .main .main__panel__header .main__panel__header__title {
+#main .main .staff__panel__header .staff__panel__header__title {
   color: #292D32;
   font-size: 1.8rem;
   font-weight: 500;
 }
-#main .main .main__panel__content {
+#main .main .staff__panel__content {
   width: 100%;
   height: 42.3rem;
   padding: 2rem 3rem;
 }
-#main .main .main__panel__content .main__panel__content__item {
+#main .main .staff__panel__content .staff__panel__content__item {
   margin-bottom: 1rem;
   display: flex;
   background-color: var(--body-background-color);
 }
-#main .main .main__panel__content .main__panel__content__item .main__panel__content__item__image {
+#main .main .staff__panel__content .staff__panel__content__item .staff__panel__content__item__image {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
   overflow: hidden;
   margin: 1.5rem 2.2rem 1.5rem 2rem;
 }
-#main .main .main__panel__content .main__panel__content__item .main__panel__content__item__about {
+#main .main .staff__panel__content .staff__panel__content__item .staff__panel__content__item__about {
   margin: 2rem 2.2rem 1.5rem 2rem;
 }
-#main .main .main__panel__content .main__panel__content__item .main__panel__content__item__about .main__panel__content__item__about__name {
+#main .main .staff__panel__content .staff__panel__content__item .staff__panel__content__item__about .staff__panel__content__item__about__name {
   color: #292D32;
   font-weight: 500;
 }
-#main .main .main__panel__content .main__panel__content__item .main__panel__content__item__about .main__panel__content__item__about__email {
+#main .main .staff__panel__content .staff__panel__content__item .staff__panel__content__item__about .staff__panel__content__item__about__email {
   color: var(--main-text-color);
   font-size: 1.2rem;
+}
+#main .main .staff__panel__footer {
+  width: 100%;
+  height: 7.6rem;
+  border-top: 1px solid #E3EAF3;
+  background: var(--body-background-color);
+  position: relative;
+}
+#main .main .staff__panel__footer .staff__panel__footer__button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.9rem 1.4rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  color: var(--body-background-color);
+  background-color: #6C70DC;
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+}
+#main .main .service__panel {
+  width: 75rem;
+  height: 56rem;
+  background-color: var(--main-background-color);
+}
+#main .main .service__panel__header {
+  width: 100%;
+  height: 6rem;
+  padding: 0 3rem;
+  border-bottom: 1px solid #E3EAF3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .main .service__panel__header .service__panel__header__title {
+  color: #292D32;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+#main .main .service__panel__content {
+  width: 100%;
+  height: 42.3rem;
+  padding: 2rem 3rem;
+}
+#main .main .service__panel__content .service__panel__content__item {
+  margin-bottom: 1rem;
+  display: flex;
+  background-color: var(--body-background-color);
+}
+#main .main .service__panel__content .service__panel__content__item .service__panel__content__item__image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1.5rem 2.2rem 1.5rem 2rem;
+}
+#main .main .service__panel__content .service__panel__content__item .service__panel__content__item__about {
+  margin: 2rem 2.2rem 1.5rem 2rem;
+}
+#main .main .service__panel__content .service__panel__content__item .service__panel__content__item__about .service__panel__content__item__about__name {
+  color: #292D32;
+  font-weight: 500;
+}
+#main .main .service__panel__content .service__panel__content__item .service__panel__content__item__about .service__panel__content__item__about__email {
+  color: var(--main-text-color);
+  font-size: 1.2rem;
+}
+#main .main .service__panel__footer {
+  width: 100%;
+  height: 7.6rem;
+  border-top: 1px solid #E3EAF3;
+  background: var(--body-background-color);
+  position: relative;
+}
+#main .main .service__panel__footer .service__panel__footer__button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.9rem 1.4rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  color: var(--body-background-color);
+  background-color: #6C70DC;
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
 }/*# sourceMappingURL=style.css.map */
