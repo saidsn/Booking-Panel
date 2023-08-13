@@ -26,10 +26,10 @@
                 gap: 1.5rem;
                 margin-bottom: 2rem;
 
-                &:not(.active){
+                &:not(.active) {
                     cursor: not-allowed;
                 }
-              
+
                 &.active {
                     color: #4FBF65;
                 }
@@ -129,6 +129,50 @@
                         color: #4FBF65;
                         font-size: 2.6rem;
                         font-weight: 500;
+                    }
+                }
+
+                .form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 2rem;
+
+                    .form__input {
+                        p {
+                            color: #292D32;
+                        }
+
+                        input {
+                            width: 33.5rem;
+                            height: 4.6rem;
+                            border-radius: 2px;
+                            border: 1px solid #E3EAF3;
+                            background: #FFF;
+                            outline: none;
+                            padding: 0 1rem;
+                        }
+                    }
+                }
+
+                .note {
+                    color: #292D32;
+                    margin: 2.5rem 0 .8rem;
+                }
+
+                .data {
+                    width: 100%;
+                    padding: 2rem;
+                    background: var(--body-background-color);
+
+                    .data__list {
+                        &--item {
+                            padding: .5rem;
+
+                            span {
+                                color: #6C70DC;
+                                padding-right: .5rem;
+                            }
+                        }
                     }
                 }
 

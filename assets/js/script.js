@@ -148,11 +148,11 @@ checkActivePanel()
 nextButton.addEventListener('click', () => {
 
     prevButton.style.display = 'block';
-    if (activePanelIndex === 1) {
+    if (activePanelIndex === 2) {
         nextButton.textContent = 'Confirm Booking';
 
     }
-    if (activePanelIndex !== 2) {
+    if (activePanelIndex !== 3) {
         dataPanels[activePanelIndex].classList.remove('active');
         dataPanels[activePanelIndex].classList.add('inactive');
 
@@ -169,7 +169,7 @@ prevButton.addEventListener('click', () => {
 
     activePanelIndex = (activePanelIndex - 1 + dataPanels.length) % dataPanels.length;
     activePanelIndex === 0 ? prevButton.style.display = 'none' : prevButton.style.display = 'block';
-    if (activePanelIndex < 2) {
+    if (activePanelIndex < 3) {
         nextButton.textContent = 'Next'
     }
     dataPanels[activePanelIndex].classList.remove('inactive');
