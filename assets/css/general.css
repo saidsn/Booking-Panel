@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Poppins';
-    src: url(../fonts/Poppins-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *,
 *::before,
@@ -45,12 +42,4 @@ body {
     --body-background-color: #FFF;
     --main-background-color: #F5F7FA;
     --chossen-color:#53D56C;
-}
-
-.container {
-    max-width: 120.1rem;
-    margin: 0 auto;
-}
-.row{
-    display: flex;
 }
