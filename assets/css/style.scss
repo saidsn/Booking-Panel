@@ -168,9 +168,19 @@
                         &--item {
                             padding: .5rem;
 
-                            span {
+                            .key {
                                 color: #6C70DC;
                                 padding-right: .5rem;
+                            }
+
+                            .value {
+                                color: #111;
+                                font-weight: 300;
+                            }
+
+                            .price {
+                                color: #4FBF65;
+                                font-weight: 500;
                             }
                         }
                     }
@@ -266,9 +276,9 @@
         }
 
         .times {
-            padding: .8rem;
+            padding: 2rem;
             display: flex;
-            gap: 1rem;
+            justify-content: space-between;
             flex-wrap: wrap;
             display: none;
 

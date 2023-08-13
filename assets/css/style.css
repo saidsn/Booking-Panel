@@ -143,9 +143,17 @@
 #main .main .dataPanel__center .data .data__list--item {
   padding: 0.5rem;
 }
-#main .main .dataPanel__center .data .data__list--item span {
+#main .main .dataPanel__center .data .data__list--item .key {
   color: #6C70DC;
   padding-right: 0.5rem;
+}
+#main .main .dataPanel__center .data .data__list--item .value {
+  color: #111;
+  font-weight: 300;
+}
+#main .main .dataPanel__center .data .data__list--item .price {
+  color: #4FBF65;
+  font-weight: 500;
 }
 #main .main .dataPanel__bottom {
   width: 100%;
@@ -217,9 +225,9 @@
   color: gray;
 }
 #main .date .times {
-  padding: 0.8rem;
+  padding: 2rem;
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
   flex-wrap: wrap;
   display: none;
 }
